@@ -1,3 +1,5 @@
+<body>
+    
 <header class="container max-w-full bg-gray-900 mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-5">
         <div class="text-center md:text-left md:col-span-2">
@@ -6,9 +8,9 @@
             </h1>
         </div>
         <div class="text-center md:text-right md:col-span-1 md:mr-6">
-            <button class="bg-fuchsia-800 hover:bg-fuchsia-700 text-white font-bold py-2 px-4 rounded">
+            <a class="bg-fuchsia-800 hover:bg-fuchsia-700 text-white font-bold py-2 px-4 rounded" routerLink="login">
                 Entrar
-            </button>
+            </a>
         </div>
     </div>
 </header>
@@ -18,8 +20,7 @@
         <div>
             <h1 class="text-white md:text-left text-3xl efeito-maquinaDeEscrever">Criaturas, mundos e cenários infinitos
                 para se explorar!</h1>
-            <button class="bg-fuchsia-800 hover:bg-fuchsia-700 text-white font-bold py-4 mt-16 px-8 rounded">INICIAR
-                AVENTURA!</button>
+            <button class="bg-fuchsia-800 hover:bg-fuchsia-700 text-white font-bold py-4 mt-16 px-8 rounded" onclick="window.open('https://dnd5ed.github.io/', '_blank')">CONHEÇA DUNGEONS & DRAGONS</button>
         </div>
     </div>
 </section>
@@ -57,7 +58,7 @@
                 <li>Comunicação via chat, voz e vídeo.</li>
                 <li>Ferramentas de criação para o mestre e de interação para os jogadores.</li>
             </ul>
-        </div>        
+        </div>
         <div class="flex justify-center">
             <img src="../../../assets/magica.svg" alt="magica" class="max-w-full h-96">
         </div>
@@ -75,3 +76,6 @@
     <source src="../../../assets/musica-fundo.mp3" type="audio/mpeg">
     Seu navegador não suporta o elemento de áudio.
 </audio>
+
+</body>
+
